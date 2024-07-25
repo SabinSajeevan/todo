@@ -4,6 +4,11 @@
 
 This is a Flutter-based Todo application that allows users to manage tasks efficiently. The app includes features for adding, editing, deleting, and marking tasks as complete. It also incorporates user authentication using Firebase and local data persistence using `sqflite`.
 
+
+https://github.com/user-attachments/assets/a1b0ae77-440c-4642-8025-e427088b9d92
+
+
+
 ## Features Implemented
 
 - **User Authentication**:
