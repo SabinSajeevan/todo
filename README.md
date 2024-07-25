@@ -41,7 +41,7 @@ This is a Flutter-based Todo application that allows users to manage tasks effic
 Next Steps
 
 Firestore Integration: Complete the integration to allow task syncing across devices.
-\nTesting: Implement unit and widget tests for better code reliability.
-\nUI/UX Improvements: Further refine the user interface for better user experience.
-\nError Handling: Add comprehensive error handling and input validation.
+</br>Testing: Implement unit and widget tests for better code reliability.
+</br>UI/UX Improvements: Further refine the user interface for better user experience.
+</br>Error Handling: Add comprehensive error handling and input validation.
 
