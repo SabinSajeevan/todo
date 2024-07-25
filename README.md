@@ -1,16 +1,47 @@
-# todo
+# Todo App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This is a Flutter-based Todo application that allows users to manage tasks efficiently. The app includes features for adding, editing, deleting, and marking tasks as complete. It also incorporates user authentication using Firebase and local data persistence using `sqflite`.
 
-This project is a starting point for a Flutter application.
+## Features Implemented
 
-A few resources to get you started if this is your first Flutter project:
+- **User Authentication**:
+  - Sign up, login, and logout using Firebase Authentication.
+  
+- **Task Management**:
+  - Add new tasks with a title, description, due date, and priority level.
+  - Edit existing tasks.
+  - Delete tasks.
+  - Mark tasks as complete.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **State Management**:
+  - Implemented using [Provider/Bloc/Riverpod] to manage the app's state effectively.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Local Data Persistence**:
+  - Uses `sqflite` to store tasks locally on the device, allowing offline access to tasks.
+
+## Features Not Implemented
+
+- **Firestore Integration**:
+  - Firestore was planned for syncing tasks across devices but is not yet implemented.
+
+- **Testing**:
+  - Unit and widget tests have not been written due to time constraints.
+
+## Setup Instructions
+
+1. **Clone the repository**:
+
+   git clone https://github.com/SabinSajeevan/todo.git
+   cd your-repo
+   flutter pub get
+   flutter run
+
+Next Steps
+
+Firestore Integration: Complete the integration to allow task syncing across devices.
+Testing: Implement unit and widget tests for better code reliability.
+UI/UX Improvements: Further refine the user interface for better user experience.
+Error Handling: Add comprehensive error handling and input validation.
+
