@@ -33,10 +33,10 @@ This is a Flutter-based Todo application that allows users to manage tasks effic
 
 1. **Clone the repository**:
 
-   git clone https://github.com/SabinSajeevan/todo.git
-   cd your-repo
-   flutter pub get
-   flutter run
+    -    git clone https://github.com/SabinSajeevan/todo.git
+    -    cd your-repo
+    -    flutter pub get
+    -    flutter run
 
 Next Steps
 
