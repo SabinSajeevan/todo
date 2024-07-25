@@ -16,7 +16,7 @@ This is a Flutter-based Todo application that allows users to manage tasks effic
   - Mark tasks as complete.
 
 - **State Management**:
-  - Implemented using [Provider/Bloc/Riverpod] to manage the app's state effectively.
+  - Implemented using Riverpod to manage the app's state effectively.
 
 - **Local Data Persistence**:
   - Uses `sqflite` to store tasks locally on the device, allowing offline access to tasks.
@@ -41,7 +41,7 @@ This is a Flutter-based Todo application that allows users to manage tasks effic
 Next Steps
 
 Firestore Integration: Complete the integration to allow task syncing across devices.
-Testing: Implement unit and widget tests for better code reliability.
-UI/UX Improvements: Further refine the user interface for better user experience.
-Error Handling: Add comprehensive error handling and input validation.
+\nTesting: Implement unit and widget tests for better code reliability.
+\nUI/UX Improvements: Further refine the user interface for better user experience.
+\nError Handling: Add comprehensive error handling and input validation.
 
